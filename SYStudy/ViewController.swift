@@ -13,6 +13,9 @@ class ViewController: UIViewController {
         static var idError: String {
             return "아이디를 확인해주세요"
         }
+        static var idSuccess: String {
+            return "성공했습니다."
+        }
     }
     
     private enum Colors {

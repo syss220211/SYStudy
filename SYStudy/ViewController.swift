@@ -14,7 +14,10 @@ class ViewController: UIViewController {
             return "아이디를 확인해주세요"
         }
         static var idSuccess: String {
-            return "성공했습니다."
+            return "성공했습니다!"
+        }
+        static var pwdError: String {
+            return "비밀번호를 확인해주세요"
         }
     }
     
@@ -31,6 +34,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var resultLabel: UILabel!
     
+    
     @IBAction func pressButton(_ sender: Any) {
         
 //        guard let id = idInputField.text, id.count > 0 else {
@@ -44,8 +48,10 @@ class ViewController: UIViewController {
         
         if isValid {
             
-            resultLabel.text = "로그인에 성공했습니다"
-            resultLabel.textColor = .blue
+//            resultLabel.text = "로그인에 성공했습니다"
+            resultLabel.text = Text.idSuccess
+//            resultLabel.textColor = .blue
+            resultLabel.textColor = Colors.success
             
         } else {
             
@@ -69,13 +75,14 @@ class ViewController: UIViewController {
         
         idInputField.placeholder = "Enter your ID"
         idLabel.text = ""
-        idLabel.textColor = .red
+//        idLabel.textColor = .red
         
         pwInputField.placeholder = "Enter your Password"
-        pwInputField.isSecureTextEntry = true
+        pwInputField.isSecureTextEntry = true // 비밀번호 ** 표시
         pwdLabel.text = ""
         
         resultLabel.text = ""
+    
     }
     
     private func validationId(id: String) -> Bool {
@@ -142,20 +149,24 @@ extension ViewController: UITextFieldDelegate {
             
             isValidId = validationId(id: finalText)
             isValidId ? (idLabel.text = "") : (idLabel.text = Text.idError)
+            idLabel.textColor = Colors.error
             
         case pwInputField:
             
-            if validationPwd(pwd: finalText) {
-                
-                pwdLabel.text = ""
-                isValidPwd = true
-                
-            } else {
-                
-                pwdLabel.text = "비밀번호를 확인해주세요."
-                pwdLabel.textColor = .red
-                isValidPwd = false
-            }
+            isValidPwd = validationPwd(pwd: finalText)
+            isValid ? (pwdLabel.text = "") : (pwdLabel.text = Text.pwdError)
+            pwdLabel.textColor = Colors.error
+//            if validationPwd(pwd: finalText) {
+//
+//                pwdLabel.text = ""
+//                isValidPwd = true
+//
+//            } else {
+//
+//                pwdLabel.text = "비밀번호를 확인해주세요."
+//                pwdLabel.textColor = .red
+//                isValidPwd = false
+//            }
             
         default: break
         }

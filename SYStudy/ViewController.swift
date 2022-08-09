@@ -32,9 +32,10 @@ class ViewController: UIViewController {
     @IBOutlet weak var pwdLabel: UILabel!
     @IBOutlet weak var pwInputField: UITextField!
     
+    //@IBOutlet weak var resultLabel: UILabel!
     @IBOutlet weak var resultLabel: UILabel!
     
-    
+    @IBOutlet weak var Button: UIButton!
     @IBAction func pressButton(_ sender: Any) {
         
 //        guard let id = idInputField.text, id.count > 0 else {
@@ -50,7 +51,6 @@ class ViewController: UIViewController {
             
 //            resultLabel.text = "로그인에 성공했습니다"
             resultLabel.text = Text.idSuccess
-//            resultLabel.textColor = .blue
             resultLabel.textColor = Colors.success
             
         } else {
@@ -82,6 +82,10 @@ class ViewController: UIViewController {
         pwdLabel.text = ""
         
         resultLabel.text = ""
+        
+        Button.layer.cornerRadius = 20
+        Button.backgroundColor = .blue
+        Button.tintColor = .white
     
     }
     

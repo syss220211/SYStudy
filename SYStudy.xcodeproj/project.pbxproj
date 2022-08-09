@@ -40,6 +40,7 @@
 		B62D62D2289F8BF9001191BE = {
 			isa = PBXGroup;
 			children = (
+				B6B66F5228A289F8005BF83E /* Yagom */,
 				B62D62DD289F8BF9001191BE /* SYStudy */,
 				B62D62DC289F8BF9001191BE /* Products */,
 			);
@@ -65,6 +66,13 @@
 				B62D62EC289F8BFD001191BE /* Info.plist */,
 			);
 			path = SYStudy;
+			sourceTree = "<group>";
+		};
+		B6B66F5228A289F8005BF83E /* Yagom */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Yagom;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

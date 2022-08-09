@@ -13,6 +13,8 @@
 		B62D62E6289F8BF9001191BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B62D62E4289F8BF9001191BE /* Main.storyboard */; };
 		B62D62E8289F8BFD001191BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B62D62E7289F8BFD001191BE /* Assets.xcassets */; };
 		B62D62EB289F8BFD001191BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B62D62E9289F8BFD001191BE /* LaunchScreen.storyboard */; };
+		B6B66F5428A28C55005BF83E /* UpDownGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B66F5328A28C55005BF83E /* UpDownGameViewController.swift */; };
+		B6B66F5628A28D10005BF83E /* UpDownGameStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6B66F5528A28D10005BF83E /* UpDownGameStoryBoard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		B62D62E7289F8BFD001191BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B62D62EA289F8BFD001191BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B62D62EC289F8BFD001191BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6B66F5328A28C55005BF83E /* UpDownGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpDownGameViewController.swift; sourceTree = "<group>"; };
+		B6B66F5528A28D10005BF83E /* UpDownGameStoryBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UpDownGameStoryBoard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,8 @@
 		B6B66F5228A289F8005BF83E /* Yagom */ = {
 			isa = PBXGroup;
 			children = (
+				B6B66F5328A28C55005BF83E /* UpDownGameViewController.swift */,
+				B6B66F5528A28D10005BF83E /* UpDownGameStoryBoard.storyboard */,
 			);
 			path = Yagom;
 			sourceTree = "<group>";
@@ -135,6 +141,7 @@
 			files = (
 				B62D62EB289F8BFD001191BE /* LaunchScreen.storyboard in Resources */,
 				B62D62E8289F8BFD001191BE /* Assets.xcassets in Resources */,
+				B6B66F5628A28D10005BF83E /* UpDownGameStoryBoard.storyboard in Resources */,
 				B62D62E6289F8BF9001191BE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -149,6 +156,7 @@
 				B62D62E3289F8BF9001191BE /* ViewController.swift in Sources */,
 				B62D62DF289F8BF9001191BE /* AppDelegate.swift in Sources */,
 				B62D62E1289F8BF9001191BE /* SceneDelegate.swift in Sources */,
+				B6B66F5428A28C55005BF83E /* UpDownGameViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

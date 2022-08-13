@@ -13,6 +13,8 @@
 		B62D62E6289F8BF9001191BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B62D62E4289F8BF9001191BE /* Main.storyboard */; };
 		B62D62E8289F8BFD001191BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B62D62E7289F8BFD001191BE /* Assets.xcassets */; };
 		B62D62EB289F8BFD001191BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B62D62E9289F8BFD001191BE /* LaunchScreen.storyboard */; };
+		B6AA687B28A76DC1006590E5 /* Homework2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AA687A28A76DC1006590E5 /* Homework2ViewController.swift */; };
+		B6AA687E28A76E1B006590E5 /* Homework2Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6AA687D28A76E1B006590E5 /* Homework2Storyboard.storyboard */; };
 		B6B66F5428A28C55005BF83E /* UpDownGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B66F5328A28C55005BF83E /* UpDownGameViewController.swift */; };
 		B6B66F5628A28D10005BF83E /* UpDownGameStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6B66F5528A28D10005BF83E /* UpDownGameStoryBoard.storyboard */; };
 /* End PBXBuildFile section */
@@ -26,6 +28,8 @@
 		B62D62E7289F8BFD001191BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B62D62EA289F8BFD001191BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B62D62EC289F8BFD001191BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6AA687A28A76DC1006590E5 /* Homework2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homework2ViewController.swift; sourceTree = "<group>"; };
+		B6AA687D28A76E1B006590E5 /* Homework2Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Homework2Storyboard.storyboard; sourceTree = "<group>"; };
 		B6B66F5328A28C55005BF83E /* UpDownGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpDownGameViewController.swift; sourceTree = "<group>"; };
 		B6B66F5528A28D10005BF83E /* UpDownGameStoryBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UpDownGameStoryBoard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -61,6 +65,8 @@
 		B62D62DD289F8BF9001191BE /* SYStudy */ = {
 			isa = PBXGroup;
 			children = (
+				B6AA687928A76D8D006590E5 /* Homework1 */,
+				B6AA687828A76CD6006590E5 /* Homework2 */,
 				B62D62DE289F8BF9001191BE /* AppDelegate.swift */,
 				B62D62E0289F8BF9001191BE /* SceneDelegate.swift */,
 				B62D62E2289F8BF9001191BE /* ViewController.swift */,
@@ -70,6 +76,22 @@
 				B62D62EC289F8BFD001191BE /* Info.plist */,
 			);
 			path = SYStudy;
+			sourceTree = "<group>";
+		};
+		B6AA687828A76CD6006590E5 /* Homework2 */ = {
+			isa = PBXGroup;
+			children = (
+				B6AA687A28A76DC1006590E5 /* Homework2ViewController.swift */,
+				B6AA687D28A76E1B006590E5 /* Homework2Storyboard.storyboard */,
+			);
+			path = Homework2;
+			sourceTree = "<group>";
+		};
+		B6AA687928A76D8D006590E5 /* Homework1 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Homework1;
 			sourceTree = "<group>";
 		};
 		B6B66F5228A289F8005BF83E /* Yagom */ = {
@@ -143,6 +165,7 @@
 				B62D62E8289F8BFD001191BE /* Assets.xcassets in Resources */,
 				B6B66F5628A28D10005BF83E /* UpDownGameStoryBoard.storyboard in Resources */,
 				B62D62E6289F8BF9001191BE /* Main.storyboard in Resources */,
+				B6AA687E28A76E1B006590E5 /* Homework2Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,6 +178,7 @@
 			files = (
 				B62D62E3289F8BF9001191BE /* ViewController.swift in Sources */,
 				B62D62DF289F8BF9001191BE /* AppDelegate.swift in Sources */,
+				B6AA687B28A76DC1006590E5 /* Homework2ViewController.swift in Sources */,
 				B62D62E1289F8BF9001191BE /* SceneDelegate.swift in Sources */,
 				B6B66F5428A28C55005BF83E /* UpDownGameViewController.swift in Sources */,
 			);

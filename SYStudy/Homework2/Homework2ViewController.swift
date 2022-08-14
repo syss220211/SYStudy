@@ -20,23 +20,29 @@ class Homework2ViewController: UIViewController {
     }
     
     private enum Texts{
-        static var card: String = "설치된 SIM 카드 없음"
-        static var check: String = "확인"
-        static var cancel: String = "취소"
-        static var number: String = "숫자 선택"
-        static var choice: String = "숫자를 선택해주세요
+        enum alert {
+            static var card: String = "설치된 SIM 카드 없음"
+        }
+        enum alertNum {
+            static var number: String = "숫자 선택"
+            static var choice: String = "숫자를 선택해주세요"
+        }
+        enum answer {
+            static var check: String = "확인"
+            static var cancel: String = "취소"
+        }
     }
     
     @IBAction func showAlert(_ sender: Any) {
         
         guard !state else { return }
         
-        let alert = UIAlertController(title: Texts.card, message: "", preferredStyle: .alert)
+        let alert = UIAlertController(title: Texts.alert.card, message: "", preferredStyle: .alert)
         
-        let confirm = UIAlertAction(title: Texts.check, style: .default) { _ in
+        let confirm = UIAlertAction(title: Texts.answer.check, style: .default) { _ in
             self.view.backgroundColor = .yellow
         }
-        let cancel = UIAlertAction(title: Texts.cancel, style: .cancel) { _ in
+        let cancel = UIAlertAction(title: Texts.answer.cancel, style: .cancel) { _ in
             self.view.backgroundColor = .red
         }
         alert.addAction(confirm)
@@ -47,7 +53,7 @@ class Homework2ViewController: UIViewController {
     
     
     @IBAction func showActionSheet(_ sender: Any) {
-        let alert = UIAlertController(title: Texts.number, message: Texts.choice, preferredStyle: .actionSheet)
+        let alert = UIAlertController(title: Texts.alertNum.number, message: Texts.alertNum.choice, preferredStyle: .actionSheet)
         
         let array = ["1", "2", "3", "4"]
         var action = UIAlertAction()
@@ -57,7 +63,7 @@ class Homework2ViewController: UIViewController {
             alert.addAction(action)
         }
         
-        let cancel = UIAlertAction(title: "취소", style: .cancel)
+        let cancel = UIAlertAction(title: Texts.answer.cancel, style: .cancel)
         alert.addAction(cancel)
         
         present(alert, animated: true)

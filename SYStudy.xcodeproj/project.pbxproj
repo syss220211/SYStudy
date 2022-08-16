@@ -13,6 +13,8 @@
 		B62D62E6289F8BF9001191BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B62D62E4289F8BF9001191BE /* Main.storyboard */; };
 		B62D62E8289F8BFD001191BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B62D62E7289F8BFD001191BE /* Assets.xcassets */; };
 		B62D62EB289F8BFD001191BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B62D62E9289F8BFD001191BE /* LaunchScreen.storyboard */; };
+		B654E31928ABDF7900A1A5DA /* StudyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B654E31828ABDF7900A1A5DA /* StudyViewController.swift */; };
+		B654E31B28ABDF9F00A1A5DA /* StudyStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B654E31A28ABDF9F00A1A5DA /* StudyStoryboard.storyboard */; };
 		B6AA687B28A76DC1006590E5 /* Homework2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AA687A28A76DC1006590E5 /* Homework2ViewController.swift */; };
 		B6AA687E28A76E1B006590E5 /* Homework2Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6AA687D28A76E1B006590E5 /* Homework2Storyboard.storyboard */; };
 		B6AA688128A780BD006590E5 /* Homework3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AA688028A780BD006590E5 /* Homework3ViewController.swift */; };
@@ -30,6 +32,8 @@
 		B62D62E7289F8BFD001191BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B62D62EA289F8BFD001191BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B62D62EC289F8BFD001191BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B654E31828ABDF7900A1A5DA /* StudyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyViewController.swift; sourceTree = "<group>"; };
+		B654E31A28ABDF9F00A1A5DA /* StudyStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StudyStoryboard.storyboard; sourceTree = "<group>"; };
 		B6AA687A28A76DC1006590E5 /* Homework2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homework2ViewController.swift; sourceTree = "<group>"; };
 		B6AA687D28A76E1B006590E5 /* Homework2Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Homework2Storyboard.storyboard; sourceTree = "<group>"; };
 		B6AA688028A780BD006590E5 /* Homework3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homework3ViewController.swift; sourceTree = "<group>"; };
@@ -69,6 +73,7 @@
 		B62D62DD289F8BF9001191BE /* SYStudy */ = {
 			isa = PBXGroup;
 			children = (
+				B654E31728ABDF4A00A1A5DA /* Study */,
 				B6AA687928A76D8D006590E5 /* Homework1 */,
 				B6AA687828A76CD6006590E5 /* Homework2 */,
 				B6AA687F28A7809A006590E5 /* Homework3 */,
@@ -79,6 +84,15 @@
 				B62D62EC289F8BFD001191BE /* Info.plist */,
 			);
 			path = SYStudy;
+			sourceTree = "<group>";
+		};
+		B654E31728ABDF4A00A1A5DA /* Study */ = {
+			isa = PBXGroup;
+			children = (
+				B654E31828ABDF7900A1A5DA /* StudyViewController.swift */,
+				B654E31A28ABDF9F00A1A5DA /* StudyStoryboard.storyboard */,
+			);
+			path = Study;
 			sourceTree = "<group>";
 		};
 		B6AA687828A76CD6006590E5 /* Homework2 */ = {
@@ -175,6 +189,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B654E31B28ABDF9F00A1A5DA /* StudyStoryboard.storyboard in Resources */,
 				B62D62EB289F8BFD001191BE /* LaunchScreen.storyboard in Resources */,
 				B62D62E8289F8BFD001191BE /* Assets.xcassets in Resources */,
 				B6B66F5628A28D10005BF83E /* UpDownGameStoryBoard.storyboard in Resources */,
@@ -193,6 +208,7 @@
 			files = (
 				B6AA688128A780BD006590E5 /* Homework3ViewController.swift in Sources */,
 				B62D62E3289F8BF9001191BE /* ViewController.swift in Sources */,
+				B654E31928ABDF7900A1A5DA /* StudyViewController.swift in Sources */,
 				B62D62DF289F8BF9001191BE /* AppDelegate.swift in Sources */,
 				B6AA687B28A76DC1006590E5 /* Homework2ViewController.swift in Sources */,
 				B62D62E1289F8BF9001191BE /* SceneDelegate.swift in Sources */,

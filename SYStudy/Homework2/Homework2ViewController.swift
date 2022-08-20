@@ -41,6 +41,8 @@ class Homework2ViewController: UIViewController {
         
         let confirm = UIAlertAction(title: Texts.answer.check, style: .default) { _ in
             self.view.backgroundColor = .yellow
+            
+            print("qweqweq")
         }
         let cancel = UIAlertAction(title: Texts.answer.cancel, style: .cancel) { _ in
             self.view.backgroundColor = .red

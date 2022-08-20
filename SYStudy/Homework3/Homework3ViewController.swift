@@ -6,6 +6,8 @@
 //
 
 import UIKit
+import RxSwift
+import Alamofire
 
 class Homework3ViewController: UIViewController {
     
@@ -65,18 +67,41 @@ class Homework3ViewController: UIViewController {
 //    private var directionKey = "directionKey"
 //    private var directionIndex = "directonIndex"
     
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        
+        print(#function)
+    }
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(animated)
+        
+        print(#function)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        print(#function)
         loader.hidesWhenStopped = true
+        
         resultLabel.text = UserDefaults.standard.string(forKey: Texts.Keys.directionKey) ?? Texts.Direction.east
         directionSegment.selectedSegmentIndex = UserDefaults.standard.integer(forKey: Texts.Keys.directionIndex)
         
-        print(UserDefaults.standard.dictionaryRepresentation())
+//        print(UserDefaults.standard.dictionaryRepresentation())
         
 //        loader.startAnimating()
 //        print(loader.isAnimating)
 //        loader.color = .red
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        print(#function)
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        print(#function)
     }
 
     @IBAction func selectDirection(_ sender: UISegmentedControl) {

@@ -108,8 +108,8 @@ class Homework3ViewController: UIViewController {
 //        print(sender.selectedSegmentIndex)
 //        print(sender.titleForSegment(at: 0))
         
-//        guard let value = sender.titleForSegment(at: sender.selectedSegmentIndex) else { return }
-//        print(value)
+        guard let value = sender.titleForSegment(at: sender.selectedSegmentIndex) else { return }
+        print(value)
         
         let direction: Direction = Direction()
         

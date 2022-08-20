@@ -39,14 +39,16 @@ class Homework2ViewController: UIViewController {
         
         let alert = UIAlertController(title: Texts.alert.card, message: "", preferredStyle: .alert)
         
-        let confirm = UIAlertAction(title: Texts.answer.check, style: .default) { _ in
+        // .destructive : 글씨체 빨간색으로 설정해줌
+        let confirm = UIAlertAction(title: Texts.answer.check, style: .destructive) { _ in
             self.view.backgroundColor = .yellow
             
-            print("qweqweq")
+//            print("qweqweq")
         }
         let cancel = UIAlertAction(title: Texts.answer.cancel, style: .cancel) { _ in
             self.view.backgroundColor = .red
         }
+        
         alert.addAction(confirm)
         alert.addAction(cancel)
         

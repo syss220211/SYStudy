@@ -152,7 +152,6 @@
 				A948BFB06899CA4956C3F0B6 /* Pods-SYStudy.debug.xcconfig */,
 				AAD3CEEA3B06B12FF281F76F /* Pods-SYStudy.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};

@@ -8,7 +8,10 @@
 import UIKit
 
 class StudyViewController: UIViewController {
-
+    
+    @IBOutlet weak var loader: UIActivityIndicatorView!
+    @IBOutlet weak var numberSegment: UISegmentedControl!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         

@@ -16,6 +16,10 @@
 		B62D62EB289F8BFD001191BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B62D62E9289F8BFD001191BE /* LaunchScreen.storyboard */; };
 		B654E31928ABDF7900A1A5DA /* StudyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B654E31828ABDF7900A1A5DA /* StudyViewController.swift */; };
 		B654E31B28ABDF9F00A1A5DA /* StudyStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B654E31A28ABDF9F00A1A5DA /* StudyStoryboard.storyboard */; };
+		B657249E28CB485E0031A8E4 /* Homework5.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B657249D28CB485E0031A8E4 /* Homework5.storyboard */; };
+		B65724A028CB48A20031A8E4 /* Homework5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B657249F28CB48A20031A8E4 /* Homework5ViewController.swift */; };
+		B65724A228CB4D040031A8E4 /* CompanyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65724A128CB4D040031A8E4 /* CompanyCell.swift */; };
+		B65724A428CB4E0A0031A8E4 /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65724A328CB4E0A0031A8E4 /* Company.swift */; };
 		B65AF85528C20432009747D6 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65AF85428C20432009747D6 /* CollectionViewCell.swift */; };
 		B65AF85728C20E39009747D6 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65AF85628C20E39009747D6 /* Animal.swift */; };
 		B683B82F28C0CC400098979B /* Homework4Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B683B82E28C0CC400098979B /* Homework4Storyboard.storyboard */; };
@@ -44,8 +48,13 @@
 		B62D62EC289F8BFD001191BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B654E31828ABDF7900A1A5DA /* StudyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyViewController.swift; sourceTree = "<group>"; };
 		B654E31A28ABDF9F00A1A5DA /* StudyStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StudyStoryboard.storyboard; sourceTree = "<group>"; };
+		B657249D28CB485E0031A8E4 /* Homework5.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Homework5.storyboard; sourceTree = "<group>"; };
+		B657249F28CB48A20031A8E4 /* Homework5ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homework5ViewController.swift; sourceTree = "<group>"; };
+		B65724A128CB4D040031A8E4 /* CompanyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyCell.swift; sourceTree = "<group>"; };
+		B65724A328CB4E0A0031A8E4 /* Company.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
 		B65AF85428C20432009747D6 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		B65AF85628C20E39009747D6 /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+		B65F344728C9E5CC00F2D797 /* Quiz1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Quiz1.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B683B82E28C0CC400098979B /* Homework4Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Homework4Storyboard.storyboard; sourceTree = "<group>"; };
 		B683B83028C0CC690098979B /* Homework4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homework4ViewController.swift; sourceTree = "<group>"; };
 		B683B83228C0D7BA0098979B /* RankCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -100,6 +109,7 @@
 		B62D62DD289F8BF9001191BE /* SYStudy */ = {
 			isa = PBXGroup;
 			children = (
+				B657249C28CB48410031A8E4 /* Homework5 */,
 				B654E31728ABDF4A00A1A5DA /* Study */,
 				B6AA687928A76D8D006590E5 /* Homework1 */,
 				B6AA687828A76CD6006590E5 /* Homework2 */,
@@ -110,6 +120,7 @@
 				B62D62E7289F8BFD001191BE /* Assets.xcassets */,
 				B62D62E9289F8BFD001191BE /* LaunchScreen.storyboard */,
 				B62D62EC289F8BFD001191BE /* Info.plist */,
+				B65F344728C9E5CC00F2D797 /* Quiz1.playground */,
 			);
 			path = SYStudy;
 			sourceTree = "<group>";
@@ -123,6 +134,17 @@
 				B65AF85628C20E39009747D6 /* Animal.swift */,
 			);
 			path = Study;
+			sourceTree = "<group>";
+		};
+		B657249C28CB48410031A8E4 /* Homework5 */ = {
+			isa = PBXGroup;
+			children = (
+				B657249D28CB485E0031A8E4 /* Homework5.storyboard */,
+				B65724A328CB4E0A0031A8E4 /* Company.swift */,
+				B657249F28CB48A20031A8E4 /* Homework5ViewController.swift */,
+				B65724A128CB4D040031A8E4 /* CompanyCell.swift */,
+			);
+			path = Homework5;
 			sourceTree = "<group>";
 		};
 		B683B82D28C0CBEB0098979B /* Homework4 */ = {
@@ -241,6 +263,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B657249E28CB485E0031A8E4 /* Homework5.storyboard in Resources */,
 				B654E31B28ABDF9F00A1A5DA /* StudyStoryboard.storyboard in Resources */,
 				B62D62EB289F8BFD001191BE /* LaunchScreen.storyboard in Resources */,
 				B62D62E8289F8BFD001191BE /* Assets.xcassets in Resources */,
@@ -304,9 +327,12 @@
 				B6AA688128A780BD006590E5 /* Homework3ViewController.swift in Sources */,
 				B62D62E3289F8BF9001191BE /* ViewController.swift in Sources */,
 				B654E31928ABDF7900A1A5DA /* StudyViewController.swift in Sources */,
+				B65724A228CB4D040031A8E4 /* CompanyCell.swift in Sources */,
 				B683B83528C0DE010098979B /* RankModel.swift in Sources */,
 				B683B83328C0D7BA0098979B /* RankCollectionViewCell.swift in Sources */,
+				B65724A028CB48A20031A8E4 /* Homework5ViewController.swift in Sources */,
 				B65AF85728C20E39009747D6 /* Animal.swift in Sources */,
+				B65724A428CB4E0A0031A8E4 /* Company.swift in Sources */,
 				B62D62DF289F8BF9001191BE /* AppDelegate.swift in Sources */,
 				B6AA687B28A76DC1006590E5 /* Homework2ViewController.swift in Sources */,
 				B62D62E1289F8BF9001191BE /* SceneDelegate.swift in Sources */,

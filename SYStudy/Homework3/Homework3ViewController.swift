@@ -11,6 +11,8 @@ import Alamofire
 
 class Homework3ViewController: UIViewController {
     
+    private typealias _test = Texts.Direction
+    
     @IBOutlet weak var resultLabel: UILabel!
     @IBOutlet weak var loader: UIActivityIndicatorView!
     @IBOutlet weak var directionSegment: UISegmentedControl!
@@ -59,7 +61,7 @@ class Homework3ViewController: UIViewController {
     }
     
     struct Direction {
-        let east: String = Texts.Direction.east
+        let east: String = _test.east
         let west: String = Texts.Direction.west
         let south: String = Texts.Direction.south
         let north: String = Texts.Direction.north

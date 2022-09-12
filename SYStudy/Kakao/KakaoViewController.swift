@@ -6,24 +6,36 @@
 //
 
 import UIKit
+import Alamofire
 
 class KakaoViewController: UIViewController {
-
+    @IBOutlet weak var collectionView: UICollectionView!
+    let kakaoList: [ChatList] = ChatList.list
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        collectionView.delegate = self
+        collectionView.dataSource = self
     }
     
+}
 
-    /*
-    // MARK: - Navigation
+extension KakaoViewController: UICollectionViewDelegate {
+    
+}
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+extension KakaoViewController: UICollectionViewDataSource {
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return kakaoList.count
     }
-    */
-
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        
+        let chatcell = collectionView.dequeueReusableCell(withReuseIdentifier: "ChattingCollectionViewCell", for: indexPath) as! ChattingCollectionViewCell
+        
+        chatcell.configure(kakaoList[indexPath.item])
+        return chatcell
+    }
+    
 }

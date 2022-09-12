@@ -14,6 +14,9 @@
 		B62D62E6289F8BF9001191BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B62D62E4289F8BF9001191BE /* Main.storyboard */; };
 		B62D62E8289F8BFD001191BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B62D62E7289F8BFD001191BE /* Assets.xcassets */; };
 		B62D62EB289F8BFD001191BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B62D62E9289F8BFD001191BE /* LaunchScreen.storyboard */; };
+		B64EEDFE28CF7D1E004002E3 /* KakaoStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B64EEDFD28CF7D1E004002E3 /* KakaoStoryboard.storyboard */; };
+		B64EEE0028CF7D4C004002E3 /* ChattingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64EEDFF28CF7D4C004002E3 /* ChattingCollectionViewCell.swift */; };
+		B64EEE0428CF7DFF004002E3 /* KakaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64EEE0328CF7DFF004002E3 /* KakaoViewController.swift */; };
 		B654E31928ABDF7900A1A5DA /* StudyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B654E31828ABDF7900A1A5DA /* StudyViewController.swift */; };
 		B654E31B28ABDF9F00A1A5DA /* StudyStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B654E31A28ABDF9F00A1A5DA /* StudyStoryboard.storyboard */; };
 		B657249E28CB485E0031A8E4 /* Homework5.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B657249D28CB485E0031A8E4 /* Homework5.storyboard */; };
@@ -46,6 +49,9 @@
 		B62D62E7289F8BFD001191BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B62D62EA289F8BFD001191BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B62D62EC289F8BFD001191BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B64EEDFD28CF7D1E004002E3 /* KakaoStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = KakaoStoryboard.storyboard; sourceTree = "<group>"; };
+		B64EEDFF28CF7D4C004002E3 /* ChattingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChattingCollectionViewCell.swift; sourceTree = "<group>"; };
+		B64EEE0328CF7DFF004002E3 /* KakaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoViewController.swift; sourceTree = "<group>"; };
 		B654E31828ABDF7900A1A5DA /* StudyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyViewController.swift; sourceTree = "<group>"; };
 		B654E31A28ABDF9F00A1A5DA /* StudyStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StudyStoryboard.storyboard; sourceTree = "<group>"; };
 		B657249D28CB485E0031A8E4 /* Homework5.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Homework5.storyboard; sourceTree = "<group>"; };
@@ -109,6 +115,7 @@
 		B62D62DD289F8BF9001191BE /* SYStudy */ = {
 			isa = PBXGroup;
 			children = (
+				B64EEDFC28CF7CB3004002E3 /* Kakao */,
 				B657249C28CB48410031A8E4 /* Homework5 */,
 				B654E31728ABDF4A00A1A5DA /* Study */,
 				B6AA687928A76D8D006590E5 /* Homework1 */,
@@ -123,6 +130,16 @@
 				B65F344728C9E5CC00F2D797 /* Quiz1.playground */,
 			);
 			path = SYStudy;
+			sourceTree = "<group>";
+		};
+		B64EEDFC28CF7CB3004002E3 /* Kakao */ = {
+			isa = PBXGroup;
+			children = (
+				B64EEDFD28CF7D1E004002E3 /* KakaoStoryboard.storyboard */,
+				B64EEDFF28CF7D4C004002E3 /* ChattingCollectionViewCell.swift */,
+				B64EEE0328CF7DFF004002E3 /* KakaoViewController.swift */,
+			);
+			path = Kakao;
 			sourceTree = "<group>";
 		};
 		B654E31728ABDF4A00A1A5DA /* Study */ = {
@@ -268,6 +285,7 @@
 				B62D62EB289F8BFD001191BE /* LaunchScreen.storyboard in Resources */,
 				B62D62E8289F8BFD001191BE /* Assets.xcassets in Resources */,
 				B6B66F5628A28D10005BF83E /* UpDownGameStoryBoard.storyboard in Resources */,
+				B64EEDFE28CF7D1E004002E3 /* KakaoStoryboard.storyboard in Resources */,
 				B62D62E6289F8BF9001191BE /* Main.storyboard in Resources */,
 				B6AA687E28A76E1B006590E5 /* Homework2Storyboard.storyboard in Resources */,
 				B683B82F28C0CC400098979B /* Homework4Storyboard.storyboard in Resources */,
@@ -332,8 +350,10 @@
 				B683B83328C0D7BA0098979B /* RankCollectionViewCell.swift in Sources */,
 				B65724A028CB48A20031A8E4 /* Homework5ViewController.swift in Sources */,
 				B65AF85728C20E39009747D6 /* Animal.swift in Sources */,
+				B64EEE0028CF7D4C004002E3 /* ChattingCollectionViewCell.swift in Sources */,
 				B65724A428CB4E0A0031A8E4 /* Company.swift in Sources */,
 				B62D62DF289F8BF9001191BE /* AppDelegate.swift in Sources */,
+				B64EEE0428CF7DFF004002E3 /* KakaoViewController.swift in Sources */,
 				B6AA687B28A76DC1006590E5 /* Homework2ViewController.swift in Sources */,
 				B62D62E1289F8BF9001191BE /* SceneDelegate.swift in Sources */,
 				B6B66F5428A28C55005BF83E /* UpDownGameViewController.swift in Sources */,

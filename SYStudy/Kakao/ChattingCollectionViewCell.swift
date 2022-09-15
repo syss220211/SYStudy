@@ -18,7 +18,7 @@ class ChattingCollectionViewCell: UICollectionViewCell {
         chattImage.image = UIImage(named: model.imageName)
         chattName.text = model.name
         chattContent.text = model.chat
+        
         chattNumber.text = model.date
     }
-    
 }

@@ -47,13 +47,13 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gnd-Ow-Cjc">
-                                                    <rect key="frame" x="122" y="53" width="41.5" height="20.5"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gnd-Ow-Cjc">
+                                                    <rect key="frame" x="122" y="53" width="208" height="20.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ePX-eq-LPD">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ePX-eq-LPD">
                                                     <rect key="frame" x="356" y="53" width="42" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -61,7 +61,7 @@
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="ePX-eq-LPD" firstAttribute="top" secondItem="Gnd-Ow-Cjc" secondAttribute="top" id="MHy-AG-fNf"/>
+                                                <constraint firstItem="ePX-eq-LPD" firstAttribute="top" secondItem="zmm-yU-YwW" secondAttribute="top" constant="53" id="5Ji-Rt-gAE"/>
                                                 <constraint firstItem="3Ky-Hn-Nac" firstAttribute="centerY" secondItem="zmm-yU-YwW" secondAttribute="centerY" id="Q08-EU-PwR"/>
                                                 <constraint firstAttribute="trailing" secondItem="ePX-eq-LPD" secondAttribute="trailing" constant="16" id="QvF-jK-tg9"/>
                                                 <constraint firstItem="Gnd-Ow-Cjc" firstAttribute="leading" secondItem="3Ky-Hn-Nac" secondAttribute="trailing" constant="26" id="e5y-fl-Kmd"/>
@@ -69,6 +69,7 @@
                                                 <constraint firstItem="Cpa-KU-Gye" firstAttribute="leading" secondItem="3Ky-Hn-Nac" secondAttribute="trailing" constant="26" id="krA-YY-3C2"/>
                                                 <constraint firstItem="3Ky-Hn-Nac" firstAttribute="leading" secondItem="zmm-yU-YwW" secondAttribute="leading" constant="16" id="pXX-cU-SZm"/>
                                                 <constraint firstItem="Cpa-KU-Gye" firstAttribute="top" secondItem="3Ky-Hn-Nac" secondAttribute="top" id="pkc-Hs-8xa"/>
+                                                <constraint firstItem="ePX-eq-LPD" firstAttribute="leading" secondItem="Gnd-Ow-Cjc" secondAttribute="trailing" constant="26" id="v8E-T7-a3l"/>
                                             </constraints>
                                         </collectionViewCellContentView>
                                         <size key="customSize" width="414" height="104"/>

@@ -19,6 +19,16 @@ class ChattingCollectionViewCell: UICollectionViewCell {
         chattName.text = model.name
         chattContent.text = model.chat
         
-        chattNumber.text = model.date
+        let dateStr = model.date
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "yyyy-MM-dd"
+        
+        let convertDate = dateFormatter.date(from: dateStr) // Date 타입으로 변환
+        let myDateFormatter = DateFormatter()
+        myDateFormatter.dateFormat = "M/d"
+        
+        let convertStr = myDateFormatter.string(from: convertDate!)
+        
+        chattNumber.text = convertStr
     }
 }

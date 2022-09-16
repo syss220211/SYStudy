@@ -31,3 +31,5 @@ extension ChatList {
         ChatList(imageName: "NIKE", name: "사람12", chat: "날짜 순서가 거꾸로 되어있는데, 이거 반대로 출력해야 할거 같은데 이럴때는 어떻게 해야될까??", date: "2022-09-12")
     ]
 }
+
+

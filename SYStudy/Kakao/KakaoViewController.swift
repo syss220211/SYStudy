@@ -40,6 +40,7 @@ extension KakaoViewController: UICollectionViewDataSource {
         let chatcell = collectionView.dequeueReusableCell(withReuseIdentifier: "ChattingCollectionViewCell", for: indexPath) as! ChattingCollectionViewCell
         
         chatcell.configure(kakaoList[indexPath.item])
+        
         return chatcell
     }
     

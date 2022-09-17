@@ -30,5 +30,6 @@ class ChattingCollectionViewCell: UICollectionViewCell {
         let convertStr = myDateFormatter.string(from: convertDate!)
         
         chattNumber.text = convertStr
+        
     }
 }

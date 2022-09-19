@@ -18,7 +18,6 @@ class KakaoViewController: UIViewController {
         collectionView.delegate = self
         collectionView.dataSource = self
     }
-    
 }
 
 extension KakaoViewController: UICollectionViewDelegateFlowLayout {

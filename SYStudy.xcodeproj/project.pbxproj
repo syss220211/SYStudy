@@ -73,6 +73,9 @@
 		B6AA688228A780CD006590E5 /* Homework3Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Homework3Storyboard.storyboard; sourceTree = "<group>"; };
 		B6B66F5328A28C55005BF83E /* UpDownGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpDownGameViewController.swift; sourceTree = "<group>"; };
 		B6B66F5528A28D10005BF83E /* UpDownGameStoryBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UpDownGameStoryBoard.storyboard; sourceTree = "<group>"; };
+		B6D6ED6E28F71BE300C1FA31 /* Iterator.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Iterator.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B6D6ED7028F71E6700C1FA31 /* Filter.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Filter.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B6D6ED7128F7231800C1FA31 /* Enumerated.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Enumerated.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +101,7 @@
 		B62D62D2289F8BF9001191BE = {
 			isa = PBXGroup;
 			children = (
+				B6D6ED6B28F71B6100C1FA31 /* SwiftStudy */,
 				B6B66F5228A289F8005BF83E /* Yagom */,
 				B62D62DD289F8BF9001191BE /* SYStudy */,
 				B62D62DC289F8BF9001191BE /* Products */,
@@ -212,6 +216,24 @@
 				B6B66F5528A28D10005BF83E /* UpDownGameStoryBoard.storyboard */,
 			);
 			path = Yagom;
+			sourceTree = "<group>";
+		};
+		B6D6ED6B28F71B6100C1FA31 /* SwiftStudy */ = {
+			isa = PBXGroup;
+			children = (
+				B6D6ED6F28F71E3800C1FA31 /* Collection */,
+			);
+			path = SwiftStudy;
+			sourceTree = "<group>";
+		};
+		B6D6ED6F28F71E3800C1FA31 /* Collection */ = {
+			isa = PBXGroup;
+			children = (
+				B6D6ED6E28F71BE300C1FA31 /* Iterator.playground */,
+				B6D6ED7028F71E6700C1FA31 /* Filter.playground */,
+				B6D6ED7128F7231800C1FA31 /* Enumerated.playground */,
+			);
+			path = Collection;
 			sourceTree = "<group>";
 		};
 		C8394219DBCD573F2A515961 /* Pods */ = {

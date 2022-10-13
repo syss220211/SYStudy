@@ -76,6 +76,12 @@
 		B6D6ED6E28F71BE300C1FA31 /* Iterator.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Iterator.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B6D6ED7028F71E6700C1FA31 /* Filter.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Filter.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B6D6ED7128F7231800C1FA31 /* Enumerated.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Enumerated.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B6D6ED7228F85D8F00C1FA31 /* LazySequence.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = LazySequence.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B6D6ED7328F8679900C1FA31 /* Reduce.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Reduce.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B6D6ED7428F86B9F00C1FA31 /* ReduceInto.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ReduceInto.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B6D6ED7528F8734500C1FA31 /* Zip.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Zip.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B6D6ED7728F8765E00C1FA31 /* InOut.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = InOut.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B6D6ED7828F8842E00C1FA31 /* Nested.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Nested.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,8 +171,8 @@
 			children = (
 				B657249D28CB485E0031A8E4 /* Homework5.storyboard */,
 				B65724A328CB4E0A0031A8E4 /* Company.swift */,
-				B657249F28CB48A20031A8E4 /* Homework5ViewController.swift */,
 				B65724A128CB4D040031A8E4 /* CompanyCell.swift */,
+				B657249F28CB48A20031A8E4 /* Homework5ViewController.swift */,
 			);
 			path = Homework5;
 			sourceTree = "<group>";
@@ -221,6 +227,7 @@
 		B6D6ED6B28F71B6100C1FA31 /* SwiftStudy */ = {
 			isa = PBXGroup;
 			children = (
+				B6D6ED7628F8764300C1FA31 /* Functions */,
 				B6D6ED6F28F71E3800C1FA31 /* Collection */,
 			);
 			path = SwiftStudy;
@@ -232,8 +239,21 @@
 				B6D6ED6E28F71BE300C1FA31 /* Iterator.playground */,
 				B6D6ED7028F71E6700C1FA31 /* Filter.playground */,
 				B6D6ED7128F7231800C1FA31 /* Enumerated.playground */,
+				B6D6ED7228F85D8F00C1FA31 /* LazySequence.playground */,
+				B6D6ED7328F8679900C1FA31 /* Reduce.playground */,
+				B6D6ED7428F86B9F00C1FA31 /* ReduceInto.playground */,
+				B6D6ED7528F8734500C1FA31 /* Zip.playground */,
 			);
 			path = Collection;
+			sourceTree = "<group>";
+		};
+		B6D6ED7628F8764300C1FA31 /* Functions */ = {
+			isa = PBXGroup;
+			children = (
+				B6D6ED7728F8765E00C1FA31 /* InOut.playground */,
+				B6D6ED7828F8842E00C1FA31 /* Nested.playground */,
+			);
+			path = Functions;
 			sourceTree = "<group>";
 		};
 		C8394219DBCD573F2A515961 /* Pods */ = {

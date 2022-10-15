@@ -21,6 +21,7 @@ class PizzaBuilder {
         }
         
         let crust = prepareCrust()
+        
         let sauce = prepareSauce()
         let toppings = prepareToppings()
         

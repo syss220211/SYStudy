@@ -67,6 +67,8 @@
 		B683B83028C0CC690098979B /* Homework4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homework4ViewController.swift; sourceTree = "<group>"; };
 		B683B83228C0D7BA0098979B /* RankCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankCollectionViewCell.swift; sourceTree = "<group>"; };
 		B683B83428C0DE010098979B /* RankModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankModel.swift; sourceTree = "<group>"; };
+		B69508EC28FA7AF900403208 /* Session.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Session.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B69508ED28FA921800403208 /* HideEnum.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = HideEnum.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B6AA687A28A76DC1006590E5 /* Homework2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homework2ViewController.swift; sourceTree = "<group>"; };
 		B6AA687D28A76E1B006590E5 /* Homework2Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Homework2Storyboard.storyboard; sourceTree = "<group>"; };
 		B6AA688028A780BD006590E5 /* Homework3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homework3ViewController.swift; sourceTree = "<group>"; };
@@ -188,6 +190,15 @@
 			path = Homework4;
 			sourceTree = "<group>";
 		};
+		B69508EB28FA7ADA00403208 /* Enumerations */ = {
+			isa = PBXGroup;
+			children = (
+				B69508EC28FA7AF900403208 /* Session.playground */,
+				B69508ED28FA921800403208 /* HideEnum.playground */,
+			);
+			path = Enumerations;
+			sourceTree = "<group>";
+		};
 		B6AA687828A76CD6006590E5 /* Homework2 */ = {
 			isa = PBXGroup;
 			children = (
@@ -227,6 +238,7 @@
 		B6D6ED6B28F71B6100C1FA31 /* SwiftStudy */ = {
 			isa = PBXGroup;
 			children = (
+				B69508EB28FA7ADA00403208 /* Enumerations */,
 				B6D6ED7628F8764300C1FA31 /* Functions */,
 				B6D6ED6F28F71E3800C1FA31 /* Collection */,
 			);

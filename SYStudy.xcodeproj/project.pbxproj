@@ -75,6 +75,7 @@
 		B6AA688228A780CD006590E5 /* Homework3Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Homework3Storyboard.storyboard; sourceTree = "<group>"; };
 		B6B66F5328A28C55005BF83E /* UpDownGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpDownGameViewController.swift; sourceTree = "<group>"; };
 		B6B66F5528A28D10005BF83E /* UpDownGameStoryBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UpDownGameStoryBoard.storyboard; sourceTree = "<group>"; };
+		B6D4BE5228FD9B3C00394055 /* AirplaneTicket.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AirplaneTicket.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B6D6ED6E28F71BE300C1FA31 /* Iterator.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Iterator.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B6D6ED7028F71E6700C1FA31 /* Filter.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Filter.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B6D6ED7128F7231800C1FA31 /* Enumerated.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Enumerated.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -195,6 +196,7 @@
 			children = (
 				B69508EC28FA7AF900403208 /* Session.playground */,
 				B69508ED28FA921800403208 /* HideEnum.playground */,
+				B6D4BE5228FD9B3C00394055 /* AirplaneTicket.playground */,
 			);
 			path = Enumerations;
 			sourceTree = "<group>";

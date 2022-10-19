@@ -77,13 +77,35 @@ struct Business {
     let chargingPorts: Bool
 }
 
+struct International {
+    let departue: String
+    let arrival: String
+    let meal: Bool
+    let chargingPorts: Bool
+    let baggageAllowed: Bool
+}
+
 enum Ticket {
     case econmy(Economy)
     case firstClass(FirstClass)
     case business(Business)
+    case international(International)
 }
 
+let ticket = Ticket.business(Business(departure: "Huston", arrival: "Denver", meal: true, chargingPorts: true))
 
+func checkIn(ticket: Ticket){
+    switch ticket {
+    case .econmy(let economy):
+        print(economy)
+    case .firstClass(let firstClass):
+        print(firstClass)
+    case .business(let business):
+        print(business)
+    case .international(let international):
+        print(international)
+    }
+}
 
 
 

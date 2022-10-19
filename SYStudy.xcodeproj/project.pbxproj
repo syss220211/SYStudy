@@ -50,6 +50,7 @@
 		B62D62E7289F8BFD001191BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B62D62EA289F8BFD001191BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B62D62EC289F8BFD001191BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B64C8DB5290040D60067821E /* LazyProperty.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = LazyProperty.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B64EEDFD28CF7D1E004002E3 /* KakaoStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = KakaoStoryboard.storyboard; sourceTree = "<group>"; };
 		B64EEE0328CF7DFF004002E3 /* KakaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoViewController.swift; sourceTree = "<group>"; };
 		B64EEE0728CF83FD004002E3 /* ChattingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChattingCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -75,6 +76,7 @@
 		B6AA688228A780CD006590E5 /* Homework3Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Homework3Storyboard.storyboard; sourceTree = "<group>"; };
 		B6B66F5328A28C55005BF83E /* UpDownGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpDownGameViewController.swift; sourceTree = "<group>"; };
 		B6B66F5528A28D10005BF83E /* UpDownGameStoryBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UpDownGameStoryBoard.storyboard; sourceTree = "<group>"; };
+		B6BA7E0328FEFB2B004E35CD /* rowEnum.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = rowEnum.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B6D4BE5228FD9B3C00394055 /* AirplaneTicket.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AirplaneTicket.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B6D6ED6E28F71BE300C1FA31 /* Iterator.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Iterator.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B6D6ED7028F71E6700C1FA31 /* Filter.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Filter.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -147,6 +149,14 @@
 			path = SYStudy;
 			sourceTree = "<group>";
 		};
+		B64C8DB4290040C10067821E /* Property */ = {
+			isa = PBXGroup;
+			children = (
+				B64C8DB5290040D60067821E /* LazyProperty.playground */,
+			);
+			path = Property;
+			sourceTree = "<group>";
+		};
 		B64EEDFC28CF7CB3004002E3 /* Kakao */ = {
 			isa = PBXGroup;
 			children = (
@@ -197,6 +207,7 @@
 				B69508EC28FA7AF900403208 /* Session.playground */,
 				B69508ED28FA921800403208 /* HideEnum.playground */,
 				B6D4BE5228FD9B3C00394055 /* AirplaneTicket.playground */,
+				B6BA7E0328FEFB2B004E35CD /* rowEnum.playground */,
 			);
 			path = Enumerations;
 			sourceTree = "<group>";
@@ -240,6 +251,7 @@
 		B6D6ED6B28F71B6100C1FA31 /* SwiftStudy */ = {
 			isa = PBXGroup;
 			children = (
+				B64C8DB4290040C10067821E /* Property */,
 				B69508EB28FA7ADA00403208 /* Enumerations */,
 				B6D6ED7628F8764300C1FA31 /* Functions */,
 				B6D6ED6F28F71E3800C1FA31 /* Collection */,

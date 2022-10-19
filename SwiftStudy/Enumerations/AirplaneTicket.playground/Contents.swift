@@ -92,7 +92,7 @@ enum Ticket {
     case international(International)
 }
 
-let ticket = Ticket.business(Business(departure: "Huston", arrival: "Denver", meal: true, chargingPorts: true))
+let ticket = Ticket.business(Business(departure: "Seoul", arrival: "Denver", meal: true, chargingPorts: true))
 
 func checkIn(ticket: Ticket){
     switch ticket {

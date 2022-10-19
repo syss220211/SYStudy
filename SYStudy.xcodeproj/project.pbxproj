@@ -70,6 +70,8 @@
 		B683B83428C0DE010098979B /* RankModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankModel.swift; sourceTree = "<group>"; };
 		B69508EC28FA7AF900403208 /* Session.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Session.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B69508ED28FA921800403208 /* HideEnum.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = HideEnum.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B697EACD29004D52008DFC21 /* TeacherStudent.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TeacherStudent.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B697EACE290058F6008DFC21 /* ComputedProtpery.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ComputedProtpery.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B6AA687A28A76DC1006590E5 /* Homework2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homework2ViewController.swift; sourceTree = "<group>"; };
 		B6AA687D28A76E1B006590E5 /* Homework2Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Homework2Storyboard.storyboard; sourceTree = "<group>"; };
 		B6AA688028A780BD006590E5 /* Homework3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homework3ViewController.swift; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				B64C8DB5290040D60067821E /* LazyProperty.playground */,
+				B697EACE290058F6008DFC21 /* ComputedProtpery.playground */,
 			);
 			path = Property;
 			sourceTree = "<group>";
@@ -208,6 +211,7 @@
 				B69508ED28FA921800403208 /* HideEnum.playground */,
 				B6D4BE5228FD9B3C00394055 /* AirplaneTicket.playground */,
 				B6BA7E0328FEFB2B004E35CD /* rowEnum.playground */,
+				B697EACD29004D52008DFC21 /* TeacherStudent.playground */,
 			);
 			path = Enumerations;
 			sourceTree = "<group>";

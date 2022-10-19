@@ -107,6 +107,8 @@ func checkIn(ticket: Ticket){
     }
 }
 
+checkIn(ticket: .econmy(Economy(departure: "Seoul", arrival: "Busan")))
+
 
 
 

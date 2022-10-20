@@ -42,6 +42,11 @@
 		598EBC18B25B9157C457124B /* Pods_SYStudy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SYStudy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A948BFB06899CA4956C3F0B6 /* Pods-SYStudy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYStudy.debug.xcconfig"; path = "Target Support Files/Pods-SYStudy/Pods-SYStudy.debug.xcconfig"; sourceTree = "<group>"; };
 		AAD3CEEA3B06B12FF281F76F /* Pods-SYStudy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYStudy.release.xcconfig"; path = "Target Support Files/Pods-SYStudy/Pods-SYStudy.release.xcconfig"; sourceTree = "<group>"; };
+		B624EDEE2901973900331BE2 /* PropertyObsevers.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = PropertyObsevers.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B624EDF02901A3DA00331BE2 /* StructInitializers.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = StructInitializers.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B624EDF12901A62B00331BE2 /* ConvenienceInitializers.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ConvenienceInitializers.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B624EDF22901AA2900331BE2 /* SubclassInitalizers.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SubclassInitalizers.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B624EDF32901AE4600331BE2 /* RequiredInit.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = RequiredInit.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B62D62DB289F8BF9001191BE /* SYStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SYStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B62D62DE289F8BF9001191BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B62D62E0289F8BF9001191BE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -111,6 +116,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		B624EDEF2901A3C000331BE2 /* Initializers */ = {
+			isa = PBXGroup;
+			children = (
+				B624EDF02901A3DA00331BE2 /* StructInitializers.playground */,
+				B624EDF12901A62B00331BE2 /* ConvenienceInitializers.playground */,
+				B624EDF22901AA2900331BE2 /* SubclassInitalizers.playground */,
+				B624EDF32901AE4600331BE2 /* RequiredInit.playground */,
+			);
+			path = Initializers;
+			sourceTree = "<group>";
+		};
 		B62D62D2289F8BF9001191BE = {
 			isa = PBXGroup;
 			children = (
@@ -156,6 +172,7 @@
 			children = (
 				B64C8DB5290040D60067821E /* LazyProperty.playground */,
 				B697EACE290058F6008DFC21 /* ComputedProtpery.playground */,
+				B624EDEE2901973900331BE2 /* PropertyObsevers.playground */,
 			);
 			path = Property;
 			sourceTree = "<group>";
@@ -255,6 +272,7 @@
 		B6D6ED6B28F71B6100C1FA31 /* SwiftStudy */ = {
 			isa = PBXGroup;
 			children = (
+				B624EDEF2901A3C000331BE2 /* Initializers */,
 				B64C8DB4290040C10067821E /* Property */,
 				B69508EB28FA7ADA00403208 /* Enumerations */,
 				B6D6ED7628F8764300C1FA31 /* Functions */,

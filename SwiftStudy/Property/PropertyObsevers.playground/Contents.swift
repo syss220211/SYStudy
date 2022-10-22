@@ -10,6 +10,12 @@ import UIKit
 
 struct Website {
     
+    init(url: String){
+        
+        defer { self.url = url }
+        self.url = url
+        
+    }
     var url: String {
         didSet {
             url = url.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed) ?? url

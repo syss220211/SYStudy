@@ -56,6 +56,11 @@
 		B62D62E7289F8BFD001191BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B62D62EA289F8BFD001191BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B62D62EC289F8BFD001191BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B63C87C92903D58A005E706B /* UnwrappingOptional2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = UnwrappingOptional2.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B63C87CA2903E35E005E706B /* ReturnOptional.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ReturnOptional.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B63C87CB2903E847005E706B /* ChainingOptinal.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ChainingOptinal.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B63C87CC2903E9DA005E706B /* OptionalBools.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = OptionalBools.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B63C87CD2903EDC0005E706B /* ForceUnwrapping.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ForceUnwrapping.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B64C8DB5290040D60067821E /* LazyProperty.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = LazyProperty.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B64EEDFD28CF7D1E004002E3 /* KakaoStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = KakaoStoryboard.storyboard; sourceTree = "<group>"; };
 		B64EEE0328CF7DFF004002E3 /* KakaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoViewController.swift; sourceTree = "<group>"; };
@@ -132,6 +137,11 @@
 			isa = PBXGroup;
 			children = (
 				B624EDF52902BC3400331BE2 /* Unwrapping.playground */,
+				B63C87C92903D58A005E706B /* UnwrappingOptional2.playground */,
+				B63C87CA2903E35E005E706B /* ReturnOptional.playground */,
+				B63C87CB2903E847005E706B /* ChainingOptinal.playground */,
+				B63C87CC2903E9DA005E706B /* OptionalBools.playground */,
+				B63C87CD2903EDC0005E706B /* ForceUnwrapping.playground */,
 			);
 			path = Optional;
 			sourceTree = "<group>";

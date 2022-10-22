@@ -30,7 +30,7 @@ func displayStudent(student: Student) {
           let grade = student.grade else {
         return
     }
-    print(middleName, grade)
+    print(middleName)
 }
 
 displayStudent(student: student)

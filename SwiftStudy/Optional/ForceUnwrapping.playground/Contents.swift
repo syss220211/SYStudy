@@ -16,8 +16,8 @@ print(student.grade!)
 let url = URL(string: "http://www.google.com")! // URL -> return optional
 print(url) // 올바른 url 형식이 아닌 경우 아무것도 출력x
 
-guard let url = URL(string: "aa bbb cc") else {
-    fatalError("URL is not defined!")
-} 
+//guard let url = URL(string: "aa bbb cc") else {
+//    fatalError("URL is not defined!")
+//}
 
 print(url)

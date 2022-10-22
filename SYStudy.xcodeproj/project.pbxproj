@@ -47,6 +47,7 @@
 		B624EDF12901A62B00331BE2 /* ConvenienceInitializers.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ConvenienceInitializers.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B624EDF22901AA2900331BE2 /* SubclassInitalizers.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SubclassInitalizers.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B624EDF32901AE4600331BE2 /* RequiredInit.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = RequiredInit.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B624EDF52902BC3400331BE2 /* Unwrapping.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Unwrapping.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B62D62DB289F8BF9001191BE /* SYStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SYStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B62D62DE289F8BF9001191BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B62D62E0289F8BF9001191BE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -125,6 +126,14 @@
 				B624EDF32901AE4600331BE2 /* RequiredInit.playground */,
 			);
 			path = Initializers;
+			sourceTree = "<group>";
+		};
+		B624EDF42902BC0200331BE2 /* Optional */ = {
+			isa = PBXGroup;
+			children = (
+				B624EDF52902BC3400331BE2 /* Unwrapping.playground */,
+			);
+			path = Optional;
 			sourceTree = "<group>";
 		};
 		B62D62D2289F8BF9001191BE = {
@@ -272,6 +281,7 @@
 		B6D6ED6B28F71B6100C1FA31 /* SwiftStudy */ = {
 			isa = PBXGroup;
 			children = (
+				B624EDF42902BC0200331BE2 /* Optional */,
 				B624EDEF2901A3C000331BE2 /* Initializers */,
 				B64C8DB4290040C10067821E /* Property */,
 				B69508EB28FA7ADA00403208 /* Enumerations */,

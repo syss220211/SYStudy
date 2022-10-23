@@ -2,6 +2,9 @@ import UIKit
 
 
 // MARK: - Required Initializer
+protocol CarType {
+    init(make: String, model: String)
+}
 
 class Car {
     var make: String

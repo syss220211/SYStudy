@@ -74,6 +74,7 @@
 		B65724A328CB4E0A0031A8E4 /* Company.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
 		B65AF85428C20432009747D6 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		B65AF85628C20E39009747D6 /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+		B65D3992290EC51500C9B828 /* ThrowingErrors.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ThrowingErrors.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B65F344728C9E5CC00F2D797 /* Quiz1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Quiz1.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B683B82E28C0CC400098979B /* Homework4Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Homework4Storyboard.storyboard; sourceTree = "<group>"; };
 		B683B83028C0CC690098979B /* Homework4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homework4ViewController.swift; sourceTree = "<group>"; };
@@ -229,6 +230,14 @@
 			path = Homework5;
 			sourceTree = "<group>";
 		};
+		B65D3991290EC4F600C9B828 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				B65D3992290EC51500C9B828 /* ThrowingErrors.playground */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
 		B683B82D28C0CBEB0098979B /* Homework4 */ = {
 			isa = PBXGroup;
 			children = (
@@ -291,6 +300,7 @@
 		B6D6ED6B28F71B6100C1FA31 /* SwiftStudy */ = {
 			isa = PBXGroup;
 			children = (
+				B65D3991290EC4F600C9B828 /* Error */,
 				B624EDF42902BC0200331BE2 /* Optional */,
 				B624EDEF2901A3C000331BE2 /* Initializers */,
 				B64C8DB4290040C10067821E /* Property */,

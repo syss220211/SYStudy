@@ -284,6 +284,48 @@
 			<key>orderHint</key>
 			<integer>16</integer>
 		</dict>
+		<key>ErrorPropagation (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>44</integer>
+		</dict>
+		<key>ErrorPropagation (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>45</integer>
+		</dict>
+		<key>ErrorPropagation (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>43</integer>
+		</dict>
+		<key>ErrorPropagtoion (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>41</integer>
+		</dict>
+		<key>ErrorPropagtoion (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>42</integer>
+		</dict>
+		<key>ErrorPropagtoion (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>40</integer>
+		</dict>
 		<key>Filter (Playground) 1.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -1382,6 +1424,27 @@
 			<false/>
 			<key>orderHint</key>
 			<integer>29</integer>
+		</dict>
+		<key>ValidityWithType (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>47</integer>
+		</dict>
+		<key>ValidityWithType (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>48</integer>
+		</dict>
+		<key>ValidityWithType (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>46</integer>
 		</dict>
 		<key>Zip (Playground) 1.xcscheme</key>
 		<dict>

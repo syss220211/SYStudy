@@ -76,6 +76,8 @@
 		B65AF85628C20E39009747D6 /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
 		B65D3992290EC51500C9B828 /* ThrowingErrors.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ThrowingErrors.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B65D39932910175900C9B828 /* ThrowingErrors2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ThrowingErrors2.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B65D3994291026E000C9B828 /* ErrorPropagation.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ErrorPropagation.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B65D39952910323100C9B828 /* ValidityWithType.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ValidityWithType.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B65F344728C9E5CC00F2D797 /* Quiz1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Quiz1.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B683B82E28C0CC400098979B /* Homework4Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Homework4Storyboard.storyboard; sourceTree = "<group>"; };
 		B683B83028C0CC690098979B /* Homework4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homework4ViewController.swift; sourceTree = "<group>"; };
@@ -236,6 +238,8 @@
 			children = (
 				B65D3992290EC51500C9B828 /* ThrowingErrors.playground */,
 				B65D39932910175900C9B828 /* ThrowingErrors2.playground */,
+				B65D3994291026E000C9B828 /* ErrorPropagation.playground */,
+				B65D39952910323100C9B828 /* ValidityWithType.playground */,
 			);
 			path = Error;
 			sourceTree = "<group>";

@@ -22,13 +22,13 @@ enum NetworkError: Error {
 
 func getPosts(completion:  @escaping (Result<[Post], NetworkError>) -> Void) {
     // post와 error return 
-    guard let url = URL(string: "http://jsonplacdholder.typicode.com/posts") else {
+    guard let url = URL(string: "http://jsonplaceholder.typicode.com/posts") else {
         completion(.failure(.badURL))
         return
     }
     
     URLSession.shared.dataTask(with: url) { (data, response, error) in
-        
+    
         if let error = error {
             completion(.failure(.custom(error)))
         } else if (response as? HTTPURLResponse)?.statusCode != 200 {

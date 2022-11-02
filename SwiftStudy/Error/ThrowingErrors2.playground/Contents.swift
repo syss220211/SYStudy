@@ -21,7 +21,9 @@ enum NetworkError: Error {
  */
 
 func getPosts(completion:  @escaping (Result<[Post], NetworkError>) -> Void) {
-    // post와 error return 
+    // post와 error return
+    // post -> .success
+    // NetworkError -> .failure
     guard let url = URL(string: "http://jsonplaceholder.typicode.com/posts") else {
         completion(.failure(.badURL))
         return
@@ -29,12 +31,12 @@ func getPosts(completion:  @escaping (Result<[Post], NetworkError>) -> Void) {
     
     URLSession.shared.dataTask(with: url) { (data, response, error) in
     
-        if let error = error {
+        if let error = error { // 에러 발생시
             completion(.failure(.custom(error)))
         } else if (response as? HTTPURLResponse)?.statusCode != 200 {
             completion(.failure(.badRequest))
         } else {
-            guard let data = data else {
+            guard let data = data else { // 데이터가 아니라면 (if let의 반대)
                 completion(.failure(.noData))
                 return
             }

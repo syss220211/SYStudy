@@ -104,6 +104,7 @@
 		B6D6ED7528F8734500C1FA31 /* Zip.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Zip.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B6D6ED7728F8765E00C1FA31 /* InOut.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = InOut.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B6D6ED7828F8842E00C1FA31 /* Nested.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Nested.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D5B61BA2291409DE00825662 /* impl-protocols.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "impl-protocols.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D5CEB9D229126F72001B087E /* airplaneProtocol.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = airplaneProtocol.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
@@ -355,6 +356,7 @@
 			isa = PBXGroup;
 			children = (
 				D5CEB9D229126F72001B087E /* airplaneProtocol.playground */,
+				D5B61BA2291409DE00825662 /* impl-protocols.playground */,
 			);
 			path = Protocol;
 			sourceTree = "<group>";

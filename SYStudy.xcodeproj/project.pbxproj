@@ -107,6 +107,7 @@
 		D590D16029157D49002BEFF0 /* bank-Protocol.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "bank-Protocol.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D5B61BA2291409DE00825662 /* impl-protocols.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "impl-protocols.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D5CEB9D229126F72001B087E /* airplaneProtocol.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = airplaneProtocol.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D5D7AC89291950460074CEDF /* protocol-oriented.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "protocol-oriented.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -359,6 +360,7 @@
 				D5CEB9D229126F72001B087E /* airplaneProtocol.playground */,
 				D5B61BA2291409DE00825662 /* impl-protocols.playground */,
 				D590D16029157D49002BEFF0 /* bank-Protocol.playground */,
+				D5D7AC89291950460074CEDF /* protocol-oriented.playground */,
 			);
 			path = Protocol;
 			sourceTree = "<group>";
